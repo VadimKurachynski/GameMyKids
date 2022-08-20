@@ -1,0 +1,95 @@
+.start {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    background-color: #63c9c7;
+    text-align: center;
+    color: rgb(21, 5, 94);
+
+}
+
+.pic {
+    flex-basis: 50%;
+
+}
+
+.text {
+    flex-basis: 50%;
+
+}
+
+
+
+.dance {
+    max-width: 100%;
+    background-color: rgb(53, 162, 212);
+}
+
+.duo {
+    max-width: 100%;
+    width: 50%;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(233, 20, 144);
+}
+
+h3 {
+    font-size: 70px;
+}
+
+h4 {
+    font-size: 80px;
+    color: red;
+}
+
+.iduo {
+    max-width: 100%;
+
+    background-color: #63c9c7;
+
+}
+
+.textduo {
+    font-size: 50px;
+    color: rgb(21, 5, 94);
+    border: 5px;
+    border-radius: 50%;
+    border-color: aquamarine;
+
+}
+
+.wrapperZ {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.headerZ {
+    flex: 0 0 40px;
+    background-color: chocolate;
+}
+
+.contentZ {
+    flex: 0 0 10200px;
+}
+
+.footerZ {
+    flex: 0 0 auto;
+    background-color: chocolate;
+}
+
+
+
+.start2 {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding: 100px;
+    background-color: #63c9c7;
+    text-align: center;
+    color: rgb(21, 5, 94);
+   
+}
+
