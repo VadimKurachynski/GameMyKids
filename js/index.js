@@ -19,9 +19,26 @@ function alerted2() {
 
 
 function prov() {
-  var el = document.getElementById('audiotext1').value;
+  let title = document.getElementsByTagName("title")[0].innerHTML;
+  let otvet = "";
+  switch (title) {
+    case "1": otvet = "Открытка"; break;
+    case "2": otvet = "Ягода малинка"; break;
+    case "3": otvet = "Мальчик на девятке"; break;
+    case "4": otvet = "Федерико Феллини"; break;
+    case "5": otvet = "Прикольная"; break;
+    case "6": otvet = "Пикачу"; break;
+    case "7": otvet = "Витаминка"; break;
+    case "8": otvet = "Малиновая лада"; break;
+    case "9": otvet = "Солнце Монако"; break;
+    case "10": otvet = "Чак Норрис"; break;
+
+  }
+  let el = document.getElementById('audiotext1').value;
   el = el.toLowerCase();
-  if (el == "открытка") {
+  otvet = otvet.toLowerCase();
+  console.log(title + el + otvet);
+  if (el == otvet) {
     var elv = document.getElementById('prompvideo');
     elv.style.display = 'initial';
     document.getElementById('nextbt').style.display = 'initial';
